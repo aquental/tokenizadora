@@ -1,0 +1,65 @@
+<svg width="680" height="720" viewBox="0 0 680 720" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>Esteira de tokenização de ativos</title>
+  <desc>Fluxo em seis módulos: ativo, jurídico e regulatório, tecnologia, distribuição, pós-venda e modelo de negócio da startup.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="#73726c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+    <style>
+      text { font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif; }
+      .th { font-size: 15px; font-weight: 600; }
+      .ts { font-size: 12.5px; font-weight: 400; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="680" height="720" fill="#FAF9F5"/>
+
+  <!-- M0 · Ativo (teal) -->
+  <g>
+    <rect x="190" y="30" width="300" height="56" rx="8" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.75"/>
+    <text class="th" x="340" y="52" text-anchor="middle" fill="#085041">M0 · Ativo</text>
+    <text class="ts" x="340" y="72" text-anchor="middle" fill="#0F6E56">Titularidade e due diligence</text>
+  </g>
+  <line x1="340" y1="86" x2="340" y2="124" stroke="#73726c" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- M1 · Jurídico e regulatório (purple) -->
+  <g>
+    <rect x="190" y="130" width="300" height="56" rx="8" fill="#EEEDFE" stroke="#534AB7" stroke-width="0.75"/>
+    <text class="th" x="340" y="152" text-anchor="middle" fill="#3C3489">M1 · Jurídico e regulatório</text>
+    <text class="ts" x="340" y="172" text-anchor="middle" fill="#534AB7">CVM, SPE, parceiro</text>
+  </g>
+  <line x1="340" y1="186" x2="340" y2="224" stroke="#73726c" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- M2 · Tecnologia (purple) -->
+  <g>
+    <rect x="190" y="230" width="300" height="56" rx="8" fill="#EEEDFE" stroke="#534AB7" stroke-width="0.75"/>
+    <text class="th" x="340" y="252" text-anchor="middle" fill="#3C3489">M2 · Tecnologia</text>
+    <text class="ts" x="340" y="272" text-anchor="middle" fill="#534AB7">Blockchain, smart contracts, site</text>
+  </g>
+  <line x1="340" y1="286" x2="340" y2="324" stroke="#73726c" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- M3 · Distribuição (purple) -->
+  <g>
+    <rect x="190" y="330" width="300" height="56" rx="8" fill="#EEEDFE" stroke="#534AB7" stroke-width="0.75"/>
+    <text class="th" x="340" y="352" text-anchor="middle" fill="#3C3489">M3 · Distribuição</text>
+    <text class="ts" x="340" y="372" text-anchor="middle" fill="#534AB7">Oferta, KYC/AML, captação</text>
+  </g>
+  <line x1="340" y1="386" x2="340" y2="424" stroke="#73726c" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- M4 · Pós-venda (coral) -->
+  <g>
+    <rect x="190" y="430" width="300" height="56" rx="8" fill="#FAECE7" stroke="#993C1D" stroke-width="0.75"/>
+    <text class="th" x="340" y="452" text-anchor="middle" fill="#712B13">M4 · Pós-venda</text>
+    <text class="ts" x="340" y="472" text-anchor="middle" fill="#993C1D">Custódia, liquidez, rendimentos</text>
+  </g>
+  <line x1="340" y1="486" x2="340" y2="538" stroke="#73726c" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- M5 · Modelo de negócio (amber, mais largo) -->
+  <g>
+    <rect x="120" y="544" width="440" height="64" rx="8" fill="#FAEEDA" stroke="#854F0B" stroke-width="0.75"/>
+    <text class="th" x="340" y="570" text-anchor="middle" fill="#633806">M5 · Modelo de negócio da startup</text>
+    <text class="ts" x="340" y="592" text-anchor="middle" fill="#854F0B">Receita, custos, escala além do 1º ativo</text>
+  </g>
+
+  <text class="ts" x="340" y="652" text-anchor="middle" fill="#5F5E5A">M0–M4 = esteira de um ativo · M5 = a startup em si</text>
+</svg>
